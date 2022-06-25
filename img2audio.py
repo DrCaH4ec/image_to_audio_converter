@@ -185,7 +185,7 @@ def compile_audio():
 if __name__ == "__main__":
 
     app = QtWidgets.QApplication([])
-    ui = uic.loadUi("lab3.ui")
+    ui = uic.loadUi("ui.ui")
 
     try:
         os.mkdir(OUT_FOLDER)
