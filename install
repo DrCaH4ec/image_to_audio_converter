@@ -4,10 +4,16 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 sudo apt-get install -y python3-pip
+sudo apt-get install -y libjpeg-dev zlib1g-dev
+sudo apt-get install -y python3-tk
+sudo apt-get install -y pyqt5-dev-tools pyqt5-dev
 pip3 install scipy
 pip3 install numpy
 pip3 install pyqt5
 pip3 install pyqtgraph
+pip3 install pillow
+pip3 install matplotlib
+pip3 install tkinter
 
 sudo chmod +x img2audio.py
 
