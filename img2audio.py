@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+#lolkekchebureck
+
 import numpy as np
 from scipy.io.wavfile import read, write
 
